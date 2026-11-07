@@ -1,0 +1,2 @@
+import React from 'react';
+export default function TarjetaSugerencia({texto}) {return <div className="box mt-3" style={{backgroundColor:'#ffe5e5',borderRadius:'6px',border:'1px solid #ffb3b3'}}><p>🗑️ {texto}</p></div>;}

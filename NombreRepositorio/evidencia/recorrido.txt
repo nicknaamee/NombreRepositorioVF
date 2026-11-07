@@ -1,0 +1,2 @@
+OK: catálogo, detalle, carrito, registro, retorno y compra en móvil
+OK: acceso admin, consulta de orden, escritorio y móvil

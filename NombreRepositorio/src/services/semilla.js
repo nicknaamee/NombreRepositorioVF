@@ -1,0 +1,32 @@
+export const iniciales = [
+  {
+    codigo: "OBJ01",
+    nombre: "Una caja",
+    descripcion: "Una caja para guardar algo.",
+    precio: 500,
+    stock: 8,
+    critico: 2,
+    categoria: "Objetos",
+    imagen: "",
+  },
+  {
+    codigo: "PAP01",
+    nombre: "Una hoja",
+    descripcion: "Una hoja en blanco.",
+    precio: 0,
+    stock: 12,
+    critico: 3,
+    categoria: "Papel",
+    imagen: "",
+  },
+  {
+    codigo: "FOC01",
+    nombre: "Foto de foca",
+    descripcion: "La foca sonriente de la página.",
+    precio: 1000,
+    stock: 4,
+    critico: 1,
+    categoria: "Otros",
+    imagen: "img/foca.jpeg",
+  },
+];
