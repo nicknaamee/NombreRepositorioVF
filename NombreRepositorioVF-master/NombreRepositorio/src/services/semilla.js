@@ -1,0 +1,32 @@
+export const iniciales = [
+  {
+    codigo: "OBJ01",
+    nombre: "una pala",
+    descripcion: "agarre la pala.",
+    precio: 500,
+    stock: 8,
+    critico: 2,
+    categoria: "Objetos",
+    imagen: "https://i.pinimg.com/736x/46/4f/d7/464fd781caba038f6c22d0361a2313f5.jpg",
+  },
+  {
+    codigo: "PAP01",
+    nombre: "Un panda?",
+    descripcion: "Los pandas a diferencia de la gran mayoría de los osos, los pandas no hibernan.",
+    precio: 0,
+    stock: 12,
+    critico: 3,
+    categoria: "Papel",
+    imagen: "https://i.pinimg.com/736x/fd/b6/80/fdb680c7e4ecb5180af7a03964f98c0f.jpg",
+  },
+  {
+    codigo: "FOC01",
+    nombre: "Foto de foca",
+    descripcion: "La foca sonriente de la página.",
+    precio: 1000,
+    stock: 4,
+    critico: 1,
+    categoria: "Otros",
+    imagen: "img/foca.jpeg",
+  },
+];
