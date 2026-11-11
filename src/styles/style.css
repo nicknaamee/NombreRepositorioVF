@@ -1,0 +1,168 @@
+html:not(.pagina-buzon) * {
+  font-family: "Comic Sans MS", "Comic Sans", cursive !important;
+}
+
+html:not(.pagina-buzon),
+html:not(.pagina-buzon) body {
+  margin: 0;
+  background-color: #ffffff;
+  color: #363636;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.barra-navegacion {
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.enlace-menu {
+  flex: 1 1 auto;
+  white-space: nowrap;
+  border-right: 1px solid #dbdbdb;
+}
+
+.enlace-menu:last-child {
+  border-right: none;
+}
+
+.seccion-centrada {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.label-sugerencia {
+  color: #ffe08a;
+}
+
+.boton-flotante {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  font-size: 24px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.borde-curvo {
+  border-radius: 6px;
+}
+
+.caja-modal {
+  max-width: 400px;
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 12px;
+}
+
+.borde-estandar {
+  border: 2px solid #dbdbdb;
+}
+
+.borde-advertencia {
+  border: 2px solid #ffe08a;
+}
+
+.figura-responsiva {
+  width: 100%;
+  height: auto;
+}
+
+.imagen-recortada {
+  border-radius: 8px;
+  max-height: 250px;
+  object-fit: cover;
+}
+
+.gif-exito {
+  width: 100px;
+  height: 100px;
+  border-radius: 8px;
+}
+
+.footer {
+  background-color: #363636;
+  color: #ffffff;
+  text-align: center;
+  padding: 25px;
+  border-top: 3px solid #dbdbdb;
+  margin-top: 50px;
+}
+
+.footer p,
+.footer strong {
+  color: #ffffff;
+}
+
+.header {
+  background-color: greenyellow;
+  color: #ffffff;
+  text-align: center;
+  padding: 25px;
+  border-top: 3px solid #dbdbdb;
+}
+
+.subBuzon {
+  font-weight: bold;
+  font-size: large;
+}
+#root {
+  width: 100%;
+}
+html:not(.pagina-buzon) #root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.zona-estrecha {
+  max-width: 560px !important;
+}
+.ficha > * + * {
+  margin-top: 0.6rem;
+}
+.foto-producto,
+.sin-foto {
+  width: 100%;
+  height: 105px;
+  object-fit: contain;
+}
+.registro {
+  border-bottom: 1px solid #ddd;
+  overflow-wrap: anywhere;
+}
+.registro .buttons {
+  margin-top: 0.5rem;
+}
+.marca {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.titulo-otra-pagina {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.caja-contenido {
+  max-width: 600px;
+  margin-bottom: 30px;
+}
+.imagen-foca {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.tarjeta-sugerencia {
+  background-color: #ffe5e5;
+  border-radius: 6px;
+  border: 1px solid #ffb3b3;
+}
+.contenedor-buzon {
+  max-width: 600px;
+}

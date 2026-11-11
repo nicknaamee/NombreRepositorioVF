@@ -1,0 +1,22 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> nombre-repositorio-react@1.0.0 test:api
+> node --test tests/api.test.mjs
+
+✔ valida RUN, nombres, fecha, dominio y las 346 comunas (200.234961ms)
+✔ registro público no concede rol, rechaza duplicados y protege datos (114.071236ms)
+✔ administrador crea vendedor; vendedor consulta pero no modifica (110.403438ms)
+✔ valida stock entero, precio decimal, edición, duplicados y borrado (116.921137ms)
+✔ checkout exige sesión; no descuenta parcialmente si falta stock (114.58815ms)
+✔ pedido confirmado calcula total en servidor y queda visible al vendedor (114.495051ms)
+✔ dos compras simultáneas no venden dos veces la última unidad (117.069989ms)
+✔ el mensaje solo se confirma si es válido y solo admin puede leerlo (114.799186ms)
+✔ cierre invalida la sesión; una clave incorrecta no autentica (134.494614ms)
+ℹ tests 9
+ℹ suites 0
+ℹ pass 9
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1252.475053

@@ -1,0 +1,800 @@
+{
+  "fecha": "2026-11-10T23:39:09.879Z",
+  "correctas": 99,
+  "fallidas": 0,
+  "error": false,
+  "casos": [
+    {
+      "suite": "Informacion",
+      "prueba": "ofrece dos notas",
+      "resultado": "correcta",
+      "duracionMs": 10,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "Informacion",
+      "prueba": "presenta a los integrantes",
+      "resultado": "correcta",
+      "duracionMs": 2,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "Informacion",
+      "prueba": "abre la nota elegida y permite volver",
+      "resultado": "correcta",
+      "duracionMs": 1,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "FichaProducto",
+      "prueba": "bloquea productos sin existencias",
+      "resultado": "correcta",
+      "duracionMs": 8,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "FichaProducto",
+      "prueba": "abre el detalle mediante el código",
+      "resultado": "correcta",
+      "duracionMs": 1,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "FichaProducto",
+      "prueba": "persiste una unidad al añadir",
+      "resultado": "correcta",
+      "duracionMs": 3,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "Selector",
+      "prueba": "comunica el valor seleccionado",
+      "resultado": "correcta",
+      "duracionMs": 8,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "Selector",
+      "prueba": "muestra las opciones disponibles",
+      "resultado": "correcta",
+      "duracionMs": 1,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "Selector",
+      "prueba": "permite deshabilitar el control",
+      "resultado": "correcta",
+      "duracionMs": 1,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "Tienda",
+      "prueba": "presenta los productos disponibles",
+      "resultado": "correcta",
+      "duracionMs": 2,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "Tienda",
+      "prueba": "permite volver desde un código inexistente",
+      "resultado": "correcta",
+      "duracionMs": 1,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "Tienda",
+      "prueba": "muestra un detalle con descripción",
+      "resultado": "correcta",
+      "duracionMs": 1,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "CampoSeleccion",
+      "prueba": "actualiza las opciones al cambiar los datos",
+      "resultado": "correcta",
+      "duracionMs": 9,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "CampoSeleccion",
+      "prueba": "vincula el error con el campo inválido",
+      "resultado": "correcta",
+      "duracionMs": 1,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "CampoSeleccion",
+      "prueba": "asocia la etiqueta al selector",
+      "resultado": "correcta",
+      "duracionMs": 1,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "CampoFormulario",
+      "prueba": "permite un campo multilinea y propaga sus cambios",
+      "resultado": "correcta",
+      "duracionMs": 1,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "CampoFormulario",
+      "prueba": "muestra y asocia el error de validación al campo",
+      "resultado": "correcta",
+      "duracionMs": 1,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "CampoFormulario",
+      "prueba": "asocia la etiqueta con el control y asigna el nombre",
+      "resultado": "correcta",
+      "duracionMs": 1,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "App",
+      "prueba": "elige la página correspondiente a cada ruta HTML existente",
+      "resultado": "correcta",
+      "duracionMs": 17,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "App",
+      "prueba": "aplica las clases del buzón y las retira al cambiar de página",
+      "resultado": "correcta",
+      "duracionMs": 2,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "App",
+      "prueba": "normaliza mayúsculas y usa Inicio como alternativa de una ruta desconocida",
+      "resultado": "correcta",
+      "duracionMs": 4,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "Imagen",
+      "prueba": "reenvía clases y dimensiones sin cambiar sus valores",
+      "resultado": "correcta",
+      "duracionMs": 1,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "Imagen",
+      "prueba": "actualiza la descripción al recibir nuevas props",
+      "resultado": "correcta",
+      "duracionMs": 0,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "Imagen",
+      "prueba": "conserva la ruta local y el texto alternativo recibidos",
+      "resultado": "correcta",
+      "duracionMs": 1,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "Carrito",
+      "prueba": "muestra el estado vacío",
+      "resultado": "correcta",
+      "duracionMs": 1,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "Carrito",
+      "prueba": "conserva la vuelta al carrito al pedir acceso",
+      "resultado": "correcta",
+      "duracionMs": 1,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "Carrito",
+      "prueba": "registra y limpia el carrito solo tras la confirmación",
+      "resultado": "correcta",
+      "duracionMs": 4,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "Cuenta",
+      "prueba": "muestra el registro público sin selector de rol",
+      "resultado": "correcta",
+      "duracionMs": 4,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "Cuenta",
+      "prueba": "explica credenciales rechazadas",
+      "resultado": "correcta",
+      "duracionMs": 31,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "Cuenta",
+      "prueba": "ofrece cerrar sesión al entrar con cuenta",
+      "resultado": "correcta",
+      "duracionMs": 2,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "Entrada",
+      "prueba": "crea un textarea cuando se solicita multilinea",
+      "resultado": "correcta",
+      "duracionMs": 1,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "Entrada",
+      "prueba": "notifica el valor nuevo y acepta un valor controlado actualizado",
+      "resultado": "correcta",
+      "duracionMs": 1,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "Entrada",
+      "prueba": "crea un input y reenvía atributos del campo",
+      "resultado": "correcta",
+      "duracionMs": 1,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "Boton",
+      "prueba": "ejecuta el callback recibido al hacer clic",
+      "resultado": "correcta",
+      "duracionMs": 1,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "Boton",
+      "prueba": "reenvía disabled y type y no dispara el callback deshabilitado",
+      "resultado": "correcta",
+      "duracionMs": 1,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "Boton",
+      "prueba": "muestra el contenido recibido y conserva las clases base y adicionales",
+      "resultado": "correcta",
+      "duracionMs": 0,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "PlantillaPagina",
+      "prueba": "inserta children después de la navegación y antes del pie",
+      "resultado": "correcta",
+      "duracionMs": 1,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "PlantillaPagina",
+      "prueba": "compone un encabezado, una navegación y un pie compartidos",
+      "resultado": "correcta",
+      "duracionMs": 1,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "PlantillaPagina",
+      "prueba": "transmite el título de la página al encabezado",
+      "resultado": "correcta",
+      "duracionMs": 0,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "leerSugerencias",
+      "prueba": "devuelve un arreglo vacío cuando no hay datos",
+      "resultado": "correcta",
+      "duracionMs": 0,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "leerSugerencias",
+      "prueba": "tolera JSON inválido y valores que no son arreglos",
+      "resultado": "correcta",
+      "duracionMs": 0,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "leerSugerencias",
+      "prueba": "conserva solo los textos del arreglo almacenado",
+      "resultado": "correcta",
+      "duracionMs": 0,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "Inicio",
+      "prueba": "incluye el formulario de sugerencias dentro del contenido principal",
+      "resultado": "correcta",
+      "duracionMs": 2,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "Inicio",
+      "prueba": "ofrece el acceso flotante al buzón correcto",
+      "resultado": "correcta",
+      "duracionMs": 1,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "Inicio",
+      "prueba": "compone el título y la presentación originales",
+      "resultado": "correcta",
+      "duracionMs": 1,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "BuzonSugerencias",
+      "prueba": "ofrece volver al inicio aunque el almacenamiento esté dañado",
+      "resultado": "correcta",
+      "duracionMs": 2,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "BuzonSugerencias",
+      "prueba": "carga los mensajes guardados y los presenta como texto seguro",
+      "resultado": "correcta",
+      "duracionMs": 0,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "BuzonSugerencias",
+      "prueba": "informa que el buzón está vacío cuando no hay mensajes",
+      "resultado": "correcta",
+      "duracionMs": 0,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "guardarSugerencia",
+      "prueba": "conserva los mensajes anteriores al agregar uno",
+      "resultado": "correcta",
+      "duracionMs": 0,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "guardarSugerencia",
+      "prueba": "propaga un fallo de escritura sin fingir que se guardó",
+      "resultado": "correcta",
+      "duracionMs": 1,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "guardarSugerencia",
+      "prueba": "crea la lista serializada con el primer mensaje",
+      "resultado": "correcta",
+      "duracionMs": 0,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "CatalogoProductos",
+      "prueba": "retira una ficha cuando cambia el catálogo",
+      "resultado": "correcta",
+      "duracionMs": 1,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "CatalogoProductos",
+      "prueba": "no inventa productos cuando la lista está vacía",
+      "resultado": "correcta",
+      "duracionMs": 1,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "CatalogoProductos",
+      "prueba": "muestra una ficha por producto",
+      "resultado": "correcta",
+      "duracionMs": 1,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "Presentacion",
+      "prueba": "conserva el texto de presentación original",
+      "resultado": "correcta",
+      "duracionMs": 1,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "Presentacion",
+      "prueba": "mantiene la presentación centrada y el borde de la imagen",
+      "resultado": "correcta",
+      "duracionMs": 1,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "Presentacion",
+      "prueba": "conserva el GIF y su texto alternativo originales",
+      "resultado": "correcta",
+      "duracionMs": 0,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "Contacto",
+      "prueba": "mantiene la navegación de regreso a inicio y el envío como submit",
+      "resultado": "correcta",
+      "duracionMs": 1,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "Contacto",
+      "prueba": "usa el título Contacto en la plantilla compartida",
+      "resultado": "correcta",
+      "duracionMs": 2,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "Contacto",
+      "prueba": "compone los cuatro controles etiquetados del formulario",
+      "resultado": "correcta",
+      "duracionMs": 1,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "OtraPagina",
+      "prueba": "integra el contenido multimedia dentro de la plantilla compartida",
+      "resultado": "correcta",
+      "duracionMs": 2,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "OtraPagina",
+      "prueba": "conserva las rutas para volver a Inicio o abrir Contacto",
+      "resultado": "correcta",
+      "duracionMs": 2,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "OtraPagina",
+      "prueba": "incluye un video y una imagen local sin formularios ajenos",
+      "resultado": "correcta",
+      "duracionMs": 2,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "FormularioContacto",
+      "prueba": "confirma campos válidos, los limpia y permite cerrar el modal",
+      "resultado": "correcta",
+      "duracionMs": 9,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "FormularioContacto",
+      "prueba": "muestra los cuatro errores requeridos al enviar campos vacíos",
+      "resultado": "correcta",
+      "duracionMs": 1,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "FormularioContacto",
+      "prueba": "rechaza un correo sin arroba y conserva los datos para corregirlo",
+      "resultado": "correcta",
+      "duracionMs": 3,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "MenuAdministracion",
+      "prueba": "comunica el cambio y señala la sección activa",
+      "resultado": "correcta",
+      "duracionMs": 1,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "MenuAdministracion",
+      "prueba": "limita las secciones del vendedor",
+      "resultado": "correcta",
+      "duracionMs": 1,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "MenuAdministracion",
+      "prueba": "ofrece las cuatro secciones al administrador",
+      "resultado": "correcta",
+      "duracionMs": 0,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "Modal",
+      "prueba": "gestiona el foco y elimina el listener al desmontarse",
+      "resultado": "correcta",
+      "duracionMs": 2,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "Modal",
+      "prueba": "notifica el cierre desde botón, fondo y Escape",
+      "resultado": "correcta",
+      "duracionMs": 1,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "Modal",
+      "prueba": "refleja abierto y actualiza el contenido según el tipo",
+      "resultado": "correcta",
+      "duracionMs": 2,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "FormularioTienda",
+      "prueba": "descarta la comuna al cambiar región",
+      "resultado": "correcta",
+      "duracionMs": 3,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "FormularioTienda",
+      "prueba": "no envía credenciales inválidas",
+      "resultado": "correcta",
+      "duracionMs": 1,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "FormularioTienda",
+      "prueba": "ofrece el rol solo en administración",
+      "resultado": "correcta",
+      "duracionMs": 2,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "Encabezado",
+      "prueba": "utiliza el título original cuando no recibe uno",
+      "resultado": "correcta",
+      "duracionMs": 0,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "Encabezado",
+      "prueba": "actualiza el único encabezado al cambiar el título",
+      "resultado": "correcta",
+      "duracionMs": 1,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "Encabezado",
+      "prueba": "muestra el título específico de la página",
+      "resultado": "correcta",
+      "duracionMs": 0,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "FormularioSugerencias",
+      "prueba": "rechaza un texto vacío o de espacios sin guardar ni abrir éxito",
+      "resultado": "correcta",
+      "duracionMs": 2,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "FormularioSugerencias",
+      "prueba": "guarda una sugerencia válida, limpia el campo y permite cerrar el éxito",
+      "resultado": "correcta",
+      "duracionMs": 3,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "FormularioSugerencias",
+      "prueba": "abre advertencia por contenido prohibido y conserva el texto al cerrarla",
+      "resultado": "correcta",
+      "duracionMs": 2,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "Administracion",
+      "prueba": "impide el panel al cliente",
+      "resultado": "correcta",
+      "duracionMs": 1,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "Administracion",
+      "prueba": "el vendedor ve órdenes sin acciones de edición",
+      "resultado": "correcta",
+      "duracionMs": 2,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "Administracion",
+      "prueba": "permite al administrador crear un producto",
+      "resultado": "correcta",
+      "duracionMs": 3,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "PiePagina",
+      "prueba": "conserva el nombre de la organización destacado",
+      "resultado": "correcta",
+      "duracionMs": 1,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "PiePagina",
+      "prueba": "conserva el año y el aviso de derechos del proyecto",
+      "resultado": "correcta",
+      "duracionMs": 0,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "PiePagina",
+      "prueba": "presenta el texto del pie dentro de su región semántica",
+      "resultado": "correcta",
+      "duracionMs": 1,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "ContenidoOtraPagina",
+      "prueba": "usa la foca local y conserva el texto que la acompaña",
+      "resultado": "correcta",
+      "duracionMs": 2,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "ContenidoOtraPagina",
+      "prueba": "configura el video original con título accesible y pantalla completa",
+      "resultado": "correcta",
+      "duracionMs": 1,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "ContenidoOtraPagina",
+      "prueba": "conserva el título y las instrucciones de reproducción",
+      "resultado": "correcta",
+      "duracionMs": 2,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "tienePalabraMala",
+      "prueba": "permite mensajes sin palabras prohibidas",
+      "resultado": "correcta",
+      "duracionMs": 0,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "tienePalabraMala",
+      "prueba": "detecta una palabra prohibida aunque esté en mayúsculas",
+      "resultado": "correcta",
+      "duracionMs": 1,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "tienePalabraMala",
+      "prueba": "documenta la coincidencia por subcadena heredada del original",
+      "resultado": "correcta",
+      "duracionMs": 0,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "Navegacion",
+      "prueba": "ofrece Otra Pagina con la ruta normalizada en minúsculas",
+      "resultado": "correcta",
+      "duracionMs": 0,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "Navegacion",
+      "prueba": "ofrece Contacto con el destino contacto.html",
+      "resultado": "correcta",
+      "duracionMs": 1,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "Navegacion",
+      "prueba": "ofrece Inicio con el destino index.html",
+      "resultado": "correcta",
+      "duracionMs": 1,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "TarjetaSugerencia",
+      "prueba": "reemplaza el mensaje visible al cambiar la prop texto",
+      "resultado": "correcta",
+      "duracionMs": 0,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "TarjetaSugerencia",
+      "prueba": "presenta etiquetas introducidas como texto y no como HTML",
+      "resultado": "correcta",
+      "duracionMs": 1,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    },
+    {
+      "suite": "TarjetaSugerencia",
+      "prueba": "presenta el mensaje recibido en su tarjeta",
+      "resultado": "correcta",
+      "duracionMs": 0,
+      "errores": [],
+      "navegador": "Chrome Headless 153.0.8010.0 (Linux 0.0.0)"
+    }
+  ]
+}
